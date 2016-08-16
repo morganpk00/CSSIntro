@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" style="font:90%/1.3 arial;">
+<!-- <html lang="en" style="font:90%/1.3 arial;"> -->
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Shape Calculations</title>
 	<style type="text/css">
+           *
+           {   marigin:0;
+               padding:0;}
+           html
+           {   font:90%/ 1.3 arial, sans-serif;
+               /* padding:1em; */
+               background: #255f86;}
+           fieldset
+           {   border:3px solid #ff66d9;
+               padding: 0  0.5em 0.5em;  }
 	</style>
 	
 </head>
 <body>
 	<h2>3-D Shape Calculator</h2>
 	<h3>Enter details below to calculate metrics for various shapes:</h3>
+
     <form method="get"
-          id="sphereForm"
-		  >
-        <fieldset style="border:3px solid #ff66d9">
+          id="sphereForm">
+
+       <!-- <fieldset style="border:3px solid #ff66d9"> -->
+            <fieldset>
             <h3>Spheres:</h3>
             <table>
                 <tr>
@@ -21,7 +34,7 @@
                     <td><input type="text"
                                id="sphereRadius"
                                name="sphereRadius"
-                                required>
+                               required>
                     </td>
                 </tr>
                 <tr>
